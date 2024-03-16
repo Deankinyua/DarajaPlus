@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+:root {
+  --foreground: var(--primary);
+  --background: white;
+  --color: white;
+  --checked-color: var(--primary);
+  --animation-timing: 300ms ease-in-out;
+  --gap: 4px;
+  --bar-height: 2px;
+  --top-margin: 7px;
+  --right-margin: 10px;
+  --bar-width: 30px;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--gap) * 2);
+}
+
+.hamburger-menu {
+  --x-length: calc(var(--hamburger-height) * 1.41421356237);
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  gap: var(--gap);
+  z-index: 1000;
+  cursor: pointer;
+  position: absolute;
+  top: var(--top-margin);
+  right: var(--right-margin);
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input {
+  background-color: var(--foreground);
+  content: "";
+  height: var(--bar-height);
+  width: var(--bar-width);
+  transform-origin: left center;
+  border-radius: 1001px;
+  transition: opacity var(--animation-timing), width var(--animation-timing),
+    rotate var(--animation-timing);
+}
+
+.hamburger-menu input {
+  outline: none;
+  border: none;
+  appearance: none;
+  pointer-events: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+}
+
+.hamburger-menu:has(input:checked) + .nav-bar {
+  translate: 0;
+  /* background-color: #377549; */
+  /* display: flex; */
+  position: relative;
+}
+
+.hamburger-menu:has(input:checked) + .logoContainer {
+  background-color: aquamarine;
+}
+
+.hamburger-menu:has(input:checked)::before {
+  rotate: 45deg;
+  width: var(--x-length);
+  translate: 0 calc(var(--bar-height) / -2);
+  background-color: var(--checked-color);
+}
+
+.hamburger-menu:has(input:checked)::after {
+  rotate: -45deg;
+  width: var(--x-length);
+  translate: 0 calc(var(--bar-height) / 2);
+  background-color: var(--checked-color);
+}
+
+.nav-bar {
+  translate: 0 -150%;
+  position: absolute;
+  z-index: 20;
+  padding-top: 0;
+  width: 100%;
+  margin-top: 0;
+  transition: all 0.7s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.3rem;
+}
+
+.nav-bar > * {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.nav-bar > *:hover {
+  transition: all 0.7s;
+  background-color: var(--primary);
+}
