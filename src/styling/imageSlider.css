@@ -77,7 +77,8 @@
   transition: scale 600ms ease-in-out;
 }
 
-.btn-slider-btn :hover {
+.btn-slider-btn :hover,
+.btn-slider-btn :focus-visible {
   scale: 1.2;
 }
 

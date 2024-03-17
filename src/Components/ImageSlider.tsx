@@ -1,5 +1,5 @@
 import { ArrowBigLeft, ArrowBigRight, Circle, CircleDot } from "lucide-react";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 type ImageSliderProps = {
   ImageUrls: string[];
@@ -15,14 +15,16 @@ const ImageSlider = ({ ImageUrls }: ImageSliderProps) => {
     });
   };
 
-  const showNextImage = () => {
+  const showNextImage = useCallback(() => {
     setImageIndex((index) => {
       if (index === ImageUrls.length - 1) return 0;
       return index + 1;
     });
-  };
+  }, [ImageUrls.length]);
 
-  // setInterval(showNextImage, 3000);
+  useEffect(() => {
+    setInterval(showNextImage, 15000);
+  }, [showNextImage]);
 
   return (
     <div className="imageSlider">

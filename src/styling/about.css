@@ -1,0 +1,44 @@
+.projectsContainer {
+  margin-bottom: 4rem;
+}
+
+.img-experience-container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imageFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+.years {
+  font-size: 4rem;
+}
+
+.arrayImages {
+  width: 100%;
+  height: 100%;
+  background: #8273b1;
+}
+
+.arrayImages img {
+  width: 80%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.clientContainer {
+  animation: none;
+}
+
+.brandsContainer {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
