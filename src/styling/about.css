@@ -1,3 +1,7 @@
+.about-intro {
+  padding: 1.2rem 1.5rem;
+}
+
 .projectsContainer {
   margin-bottom: 4rem;
 }
@@ -34,11 +38,32 @@
   object-fit: cover;
 }
 
-.clientContainer {
-  animation: none;
+.clientsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.clientNames {
+  font-size: 2.8rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.worked {
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .brandsContainer {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
+  gap: 5rem;
+  grid-template-rows: repeat(3, 5rem);
+}
+
+.clientContainer {
+  animation: none;
 }

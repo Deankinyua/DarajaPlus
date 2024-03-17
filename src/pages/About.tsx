@@ -3,14 +3,27 @@ import { CLIENTS } from "../services/ClientService";
 import { imageArray } from "../services/aboutImage";
 import "../styling/about.css";
 
-import { Card } from "@chakra-ui/react";
+import { Card, Heading, Highlight } from "@chakra-ui/react";
 
 const About = () => {
   return (
     <>
       <div className="about-intro">
-        <h1>THE DARAJA PLUS STORY</h1> <h2>Get To Know Us</h2>
-        <p>
+        <Heading size={"2xl"} fontSize={"2.2rem"}>
+          <span className="companyName">THE DARAJA PLUS STORY</span>{" "}
+          <h2>Get To Know Us</h2>
+        </Heading>
+
+        <Highlight
+          query={[
+            "average",
+            "ground-shaking",
+            "dedicated",
+            "Daraja Plus",
+            "2015",
+          ]}
+          styles={{ color: "#794ff1" }}
+        >
           We’re not your average marketing and communications company. We’re a
           team of innovators on a mission to reshape consumer behavior. From
           digital dynamism to ground-shaking activities, we bring brands to life
@@ -19,7 +32,7 @@ const About = () => {
           Daraja Plus – We are a team of dedicated experts, each bringing their
           unique spark to every project. Since 2015, we’ve been rewriting the
           playbook, proudly steering brands toward success.
-        </p>
+        </Highlight>
       </div>
       <div className="projectsContainer">
         {imageArray.map((element) => (
@@ -37,7 +50,13 @@ const About = () => {
         ))}
       </div>
 
-      <Marquee pauseOnHover={true} speed={30} pauseOnClick={true}>
+      <div className="clientsList">
+        <div>
+          <h1 className="clientNames">We Are Pleased to Have Worked With:</h1>
+        </div>
+      </div>
+
+      <Marquee pauseOnHover={true} speed={15} pauseOnClick={true}>
         <div className="brandsContainer">
           {CLIENTS.map((client) => (
             <div className="imgContainer clientContainer">
