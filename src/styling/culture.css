@@ -1,0 +1,29 @@
+.culture {
+  padding: 1rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.culture .img-container {
+  width: 30rem;
+}
+
+.culture img {
+  max-width: 80%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.text-culture span {
+  color: var(--primary);
+}
+
+.text-culture h1 {
+  font-size: 2.7rem;
+  font-family: "Times New Roman", Times, serif;
+}

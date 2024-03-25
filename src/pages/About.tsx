@@ -7,7 +7,7 @@ import { Card, Heading, Highlight } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <>
+    <div className="about-wrapper">
       <div className="about-intro">
         <Heading size={"2xl"} fontSize={"2.2rem"}>
           <span className="companyName">THE DARAJA PLUS STORY</span>{" "}
@@ -65,7 +65,7 @@ const About = () => {
           ))}
         </div>
       </Marquee>
-    </>
+    </div>
   );
 };
 
