@@ -56,7 +56,7 @@ const About = () => {
         </div>
       </div>
 
-      <Marquee pauseOnHover={true} speed={15} pauseOnClick={true}>
+      <Marquee pauseOnHover={true} speed={15}>
         <div className="brandsContainer">
           {CLIENTS.map((client) => (
             <div className="imgContainer clientContainer">
