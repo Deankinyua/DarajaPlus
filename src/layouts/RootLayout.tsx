@@ -43,7 +43,7 @@ const RootLayout = () => {
               Culture
             </NavLink>
             <NavLink to={"caseStudies"} className={"links"}>
-              Case Studies
+              Case Studiess
             </NavLink>
             <NavLink to={"blog"} className={"links"}>
               Blog
