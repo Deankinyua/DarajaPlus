@@ -56,7 +56,6 @@
 
 .hamburger-menu:has(input:checked) + .nav-bar {
   translate: 0;
-  /* display: flex; */
   position: relative;
 }
 
@@ -80,19 +79,15 @@
 
 .nav-bar {
   translate: -200% 0;
-  /* position: absolute; */
   z-index: 20;
   padding-top: 0rem;
   font-size: clamp(1.2rem, 2vw, 6rem);
   padding: 0;
-  /* background-color: rgba(216, 209, 209, 0.5); */
   width: 100%;
   margin-top: 0;
-  /* height: 40vh; */
   transition: all 0.7s ease-in-out;
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: space-between;
   gap: 0.1rem;
   /* border: 1px solid yellow; */

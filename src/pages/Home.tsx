@@ -7,10 +7,8 @@ import VideoService from "../services/VideoService";
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 
-// import { Link, NavLink, Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import myImage from "../assets/FotoJet (1).png";
-// import { RiGroupFill } from "react-icons/ri";
 
 import { Heading } from "@chakra-ui/react";
 
@@ -68,14 +66,6 @@ const Home = () => {
     <div className="home">
       <div className="firstSection1 overlay1">
         <div className="headerSection">
-          {/* <Link to={"/"}>
-          <div className="logoContainerRoot">
-            <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
-            <div className="imgContainer">
-              <img src={myImage} alt="Daraja Logo" height={200} width={200} />
-            </div>
-          </div>
-        </Link> */}
           <header>
             <label className="hamburger-menu">
               {" "}
@@ -83,21 +73,6 @@ const Home = () => {
             </label>
 
             <nav className="nav-bar">
-              {/* <NavLink to={"/"} className={"links"}>
-                <Link to={"/"}>
-                  <div className="logoContainerRoot">
-                    <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
-                    <div className="imgContainer">
-                      <img
-                        src={myImage}
-                        alt="Daraja Logo"
-                        height={200}
-                        width={200}
-                      />
-                    </div>
-                  </div>
-                </Link>
-              </NavLink> */}
               <NavLink to={"/"} className={"chatlink"}>
                 HOME
               </NavLink>
@@ -114,20 +89,27 @@ const Home = () => {
           </header>
         </div>
 
-        <div className="writerContainer">
-          <h2 className="typewriterHeading">
-            <div className="logoContainerRoot">
-              <div className="imgContainer">
-                <img src={myImage} alt="Daraja Logo" height={200} width={200} />
+        <div className="writerContainerMain">
+          <div className="writerContainer">
+            <h2 className="typewriterHeading">
+              <div className="logoContainerRoot">
+                <div className="imgContainer">
+                  <img
+                    src={myImage}
+                    alt="Daraja Logo"
+                    height={200}
+                    width={200}
+                  />
+                </div>
               </div>
-            </div>
-            <br /> <span className="typewriter"></span>
-            <span className="cursor"></span>
-            <FaQuoteLeft fill="white" />
-            We are not your typical marketing agency. At Daraja, we’re all about
-            strategic thinking and creative execution.
-            <FaQuoteRight fill="white" />
-          </h2>{" "}
+              <br /> <span className="typewriter"></span>
+              <span className="cursor"></span>
+              <FaQuoteLeft fill="white" />
+              We are not your typical marketing agency. At Daraja, we’re all
+              about strategic thinking and creative execution.
+              <FaQuoteRight fill="white" />
+            </h2>{" "}
+          </div>
         </div>
       </div>
       <div className="firstSection">

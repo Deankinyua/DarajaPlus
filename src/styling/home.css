@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
 .firstSection1 {
   min-height: 100vh;
-  /* background-color: blueviolet; */
   background: url(../../images/daraja010.jpeg) no-repeat center fixed;
   background-size: cover;
-  /* object-fit: contain; */
-  /* display: flex; */
   flex-direction: row;
-  /* justify-content: space-between; */
   border: 3px solid yellow;
-  /* margin: 3rem; */
 }
 
 .overlay1 {
@@ -23,14 +18,18 @@
   padding-right: 4rem;
 }
 
+.writerContainerMain {
+  position: relative;
+  border: 1px solid yellow;
+  /* padding-bottom: 2rem; */
+}
+
 .writerContainer {
-  /* text-align: center; */
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 60%;
   padding: 1rem 1rem 1rem 1rem;
-  /* position: absolute; */
-  /* translate: 200% 0; */
-  /* position: absolute; */
+  position: relative;
+  bottom: 4.2rem;
 }
 
 .typewriterHeading {
@@ -41,7 +40,6 @@
 
 .typewriter {
   /* border: 1px solid red; */
-  /* color: var(--primary); */
   font-weight: bold;
   margin-bottom: 1.2rem;
   margin-top: 0;
@@ -49,7 +47,6 @@
   color: rgb(255, 252, 252);
   font-family: "Slabo 27px", serif;
   font-weight: 600;
-  /* font-size: 3rem; */
   font-style: normal;
   display: block;
 }

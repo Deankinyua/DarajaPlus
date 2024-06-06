@@ -2,7 +2,6 @@ import "../styling/home.css";
 import "../styling/caseStudies.css";
 import VideoService from "../services/VideoService";
 import harpicVideo2 from "../videos/HARPIC Door to Door.mp4";
-// import myImage from "../assets/PhotoShot_1710670139026.jpeg";
 
 import {
   Stat,
@@ -11,7 +10,6 @@ import {
   StatHelpText,
   StatArrow,
 } from "@chakra-ui/react";
-// import { RiGroupFill } from "react-icons/ri";
 
 const CaseStudies = () => {
   return (
