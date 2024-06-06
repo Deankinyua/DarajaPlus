@@ -1,3 +1,15 @@
+.firstSection1 {
+  height: 100vh;
+  /* background-color: blueviolet; */
+  background: url(../../images/daraja010.jpeg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.overlay1 {
+  border-image: fill 1
+    linear-gradient(hsl(240 100% 50% / 0.4), hsl(0 100% 50% / 0.4));
+}
+
 .firstSection {
   width: 95%;
   padding: 2rem 2.6rem;

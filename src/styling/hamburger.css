@@ -79,19 +79,21 @@
 }
 
 .nav-bar {
-  translate: 0 -150%;
+  translate: -150% 0;
   position: absolute;
   z-index: 20;
-  padding-top: 0;
-  width: 100%;
+  padding-top: 0rem;
+  /* background-color: rgba(216, 209, 209, 0.5); */
+  width: 50%;
   margin-top: 0;
-  height: 95vh;
+  height: 100vh;
   transition: all 0.7s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 0.7rem;
+  color: #ffff;
 }
 
 .nav-bar > * {

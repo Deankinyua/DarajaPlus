@@ -19,8 +19,8 @@ const RootLayout = () => {
   }, []);
   return (
     <div className="root-layout">
-      <div className="headerSection">
-        {/* <Link to={"/"}>
+      {/* <div className="headerSection"> */}
+      {/* <Link to={"/"}>
           <div className="logoContainerRoot">
             <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
             <div className="imgContainer">
@@ -28,7 +28,7 @@ const RootLayout = () => {
             </div>
           </div>
         </Link> */}
-        <header>
+      {/* <header>
           <label className="hamburger-menu">
             {" "}
             <input type="checkbox" id="checkbox" />{" "}
@@ -66,10 +66,10 @@ const RootLayout = () => {
               Chat
             </NavLink>
           </nav>
-        </header>
-      </div>
+        </header> */}
+      {/* </div> */}
 
-      <main>
+      <main className="main">
         <Outlet></Outlet>
       </main>
     </div>

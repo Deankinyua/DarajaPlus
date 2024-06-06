@@ -4,6 +4,11 @@ import ImageSlider from "../Components/ImageSlider";
 import { IMAGES } from "../services/ImageService";
 import VideoService from "../services/VideoService";
 
+import { Link, NavLink, Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
+import myImage from "../assets/PhotoShot_1710670139026.jpeg";
+import { RiGroupFill } from "react-icons/ri";
+
 import { Heading } from "@chakra-ui/react";
 
 // ? Styles Import
@@ -58,6 +63,58 @@ const Home = () => {
 
   return (
     <div className="home">
+      <div className="firstSection1 overlay1">
+        <div className="headerSection">
+          {/* <Link to={"/"}>
+          <div className="logoContainerRoot">
+            <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
+            <div className="imgContainer">
+              <img src={myImage} alt="Daraja Logo" height={200} width={200} />
+            </div>
+          </div>
+        </Link> */}
+          <header>
+            <label className="hamburger-menu">
+              {" "}
+              <input type="checkbox" id="checkbox" />{" "}
+            </label>
+            <nav className="nav-bar">
+              {/* <NavLink to={"/"} className={"links"}>
+                <Link to={"/"}>
+                  <div className="logoContainerRoot">
+                    <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
+                    <div className="imgContainer">
+                      <img
+                        src={myImage}
+                        alt="Daraja Logo"
+                        height={200}
+                        width={200}
+                      />
+                    </div>
+                  </div>
+                </Link>
+              </NavLink> */}
+              <NavLink to={"/"} className={"links"}>
+                Home
+              </NavLink>
+              <NavLink to={"about"} className={"links"}>
+                About Us
+              </NavLink>
+              <NavLink to={"culture"} className={"links"}>
+                Culture
+              </NavLink>
+              <NavLink to={"caseStudies"} className={"links"}>
+                Case Studies
+              </NavLink>
+
+              <NavLink to={"contacts"} className={"chatlink links"}>
+                Chat
+              </NavLink>
+            </nav>
+          </header>
+        </div>
+        {/* <p>We are not your typical marketing agency.</p> */}
+      </div>
       <div className="firstSection">
         <Heading size={"2xl"} fontSize={"3.5rem"}>
           Holding your <span className="companyName">Hand</span> every Step of
@@ -74,7 +131,7 @@ const Home = () => {
 
       <div className="writerContainer">
         <h2 className="typewriterHeading">
-          We are Dedicated to <br /> <span className="typewriter"></span>
+          Dedicated to <br /> <span className="typewriter"></span>
           <span className="cursor">|</span>
         </h2>{" "}
       </div>
