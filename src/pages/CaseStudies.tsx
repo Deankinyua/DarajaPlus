@@ -2,7 +2,7 @@ import "../styling/home.css";
 import "../styling/caseStudies.css";
 import VideoService from "../services/VideoService";
 import harpicVideo2 from "../videos/HARPIC Door to Door.mp4";
-import myImage from "../assets/PhotoShot_1710670139026.jpeg";
+// import myImage from "../assets/PhotoShot_1710670139026.jpeg";
 
 import {
   Stat,
@@ -10,21 +10,20 @@ import {
   StatNumber,
   StatHelpText,
   StatArrow,
-  Link,
 } from "@chakra-ui/react";
-import { RiGroupFill } from "react-icons/ri";
+// import { RiGroupFill } from "react-icons/ri";
 
 const CaseStudies = () => {
   return (
     <div>
-      <Link to={"/"}>
+      {/* <Link to={"/"}>
         <div className="logoContainerRoot">
           <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
           <div className="imgContainer">
             <img src={myImage} alt="Daraja Logo" height={200} width={200} />
           </div>
         </div>
-      </Link>
+      </Link> */}
       <div className="videoContainer">
         <VideoService videoName={harpicVideo2} />
       </div>

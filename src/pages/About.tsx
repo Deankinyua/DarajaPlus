@@ -5,7 +5,7 @@ import myImage from "../assets/PhotoShot_1710670139026.jpeg";
 import "../styling/about.css";
 
 import { Card, Heading, Highlight } from "@chakra-ui/react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { RiGroupFill } from "react-icons/ri";
 
 const About = () => {

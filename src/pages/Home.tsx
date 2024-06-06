@@ -4,10 +4,10 @@ import ImageSlider from "../Components/ImageSlider";
 import { IMAGES } from "../services/ImageService";
 import VideoService from "../services/VideoService";
 
-import { Link, NavLink, Outlet } from "react-router-dom";
-// import { Outlet } from "react-router-dom";
-import myImage from "../assets/PhotoShot_1710670139026.jpeg";
-import { RiGroupFill } from "react-icons/ri";
+// import { Link, NavLink, Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+// import myImage from "../assets/PhotoShot_1710670139026.jpeg";
+// import { RiGroupFill } from "react-icons/ri";
 
 import { Heading } from "@chakra-ui/react";
 
