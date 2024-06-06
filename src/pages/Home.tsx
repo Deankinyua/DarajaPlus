@@ -113,6 +113,15 @@ const Home = () => {
             </nav>
           </header>
         </div>
+
+        <div className="writerContainer">
+          <h2 className="typewriterHeading">
+            "We are not your typical marketing agency. At Daraja, we’re all
+            about strategic thinking and creative execution. Dedicated to <br />{" "}
+            <span className="typewriter"></span>
+            <span className="cursor">|"</span>
+          </h2>{" "}
+        </div>
         {/* <p>We are not your typical marketing agency.</p> */}
       </div>
       <div className="firstSection">

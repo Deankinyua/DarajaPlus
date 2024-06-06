@@ -7,7 +7,7 @@
 
 .overlay1 {
   border-image: fill 1
-    linear-gradient(hsl(240 100% 50% / 0.4), hsl(0 100% 50% / 0.4));
+    linear-gradient(hsla(240 100% 50% / 0.4), hsla(0 100% 50% / 0.4));
 }
 
 .firstSection {
@@ -17,11 +17,15 @@
 }
 
 .writerContainer {
-  text-align: center;
+  /* text-align: center; */
+  /* border: 1px solid red; */
+  width: 57%;
+  padding: 1rem;
 }
 
 .typewriterHeading {
-  font-size: 3rem;
+  color: white;
+  font-size: clamp(2rem, 5vw, 5rem);
 }
 
 .typewriter {
