@@ -3,11 +3,12 @@
   /* background-color: blueviolet; */
   background: url(../../images/daraja010.jpeg) no-repeat center fixed;
   background-size: cover;
+  object-fit: contain;
 }
 
 .overlay1 {
   border-image: fill 1
-    linear-gradient(hsla(240 100% 50% / 0.4), hsla(0 100% 50% / 0.4));
+    linear-gradient(hsla(185, 91%, 13%, 0.4), hsla(0, 84%, 34%, 0.4));
 }
 
 .firstSection {
@@ -26,7 +27,7 @@
 .typewriterHeading {
   color: white;
   line-height: 2;
-  font-size: clamp(2rem, 5vw, 5rem);
+  font-size: clamp(2rem, 5vw, 4rem);
 }
 
 .typewriter {
