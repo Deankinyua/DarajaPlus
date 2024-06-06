@@ -4,7 +4,7 @@
   --foreground: #ffff;
   --background: white;
   --color: white;
-  --checked-color: var(--primary);
+  --checked-color: var(--foreground);
   --animation-timing: 300ms ease-in-out;
   --gap: 4px;
   --bar-height: 2px;

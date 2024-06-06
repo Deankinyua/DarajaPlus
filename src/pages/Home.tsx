@@ -114,15 +114,13 @@ const Home = () => {
       </div>
       <div className="firstSection">
         <Heading size={"2xl"} fontSize={"3.5rem"}>
-          Holding your <span className="companyName">Hand</span> every Step of
-          the <span className="companyName">Way</span>
+          Unlock Your
+          <span className="companyName">Brand's</span> Potential with Our Unique
+          <span className="companyName">Approach</span>
         </Heading>
         <p>
-          We are not your typical marketing agency. At Daraja, we’re all about
-          strategic thinking and creative execution. From digital to on-ground
-          activations, we bring a unique touch to every project. But what really
-          sets us apart? Our commitment to brand campaigns with a purpose. We’re
-          here to make waves and make them count!
+          But what really sets us apart? Our commitment to brand campaigns with
+          a purpose. We’re here to make waves and make them count!
         </p>
       </div>
 
