@@ -13,16 +13,19 @@
 
 .logoContainerRoot {
   display: flex;
-  /* align-items: center; */
-  max-width: 13rem;
-  gap: 3px;
+  align-items: center;
+  /* max-width: 13rem; */
+  gap: 2px;
   /* font-size: 14rem; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .imgContainer {
-  width: 10rem;
-  padding: 0.6rem;
+  width: 80%;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  /* border: 1px solid red; */
   animation: colorAnim 400ms infinite ease-in-out;
   display: inline-block;
 }

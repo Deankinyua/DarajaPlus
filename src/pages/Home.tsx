@@ -6,7 +6,7 @@ import VideoService from "../services/VideoService";
 
 // import { Link, NavLink, Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import myImage from "../assets/darajalogo.png";
+import myImage from "../assets/FotoJet (1).png";
 // import { RiGroupFill } from "react-icons/ri";
 
 import { Heading } from "@chakra-ui/react";
@@ -120,7 +120,7 @@ const Home = () => {
             about strategic thinking and creative execution.
             <div className="logoContainerRoot">
               <div className="imgContainer">
-                <img src={myImage} alt="Daraja Logo" height={800} width={400} />
+                <img src={myImage} alt="Daraja Logo" height={300} width={300} />
               </div>
             </div>
             <br /> <span className="typewriter"></span>
