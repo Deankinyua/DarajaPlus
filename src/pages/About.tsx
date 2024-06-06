@@ -1,21 +1,19 @@
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../services/ClientService";
 import { imageArray } from "../services/aboutImage";
-import myImage from "../assets/PhotoShot_1710670139026.jpeg";
+import myImage from "../assets/darajalogo.png";
 import "../styling/about.css";
 
 import { Card, Heading, Highlight } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { RiGroupFill } from "react-icons/ri";
 
 const About = () => {
   return (
     <div className="about-wrapper">
       <Link to={"/"}>
-        <div className="logoContainerRoot">
-          <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
-          <div className="imgContainer">
-            <img src={myImage} alt="Daraja Logo" height={200} width={200} />
+        <div className="logoContainerRoot logoContainer2">
+          <div className="imgContainer imgContainer2">
+            <img src={myImage} alt="Daraja Logo" />
           </div>
         </div>
       </Link>

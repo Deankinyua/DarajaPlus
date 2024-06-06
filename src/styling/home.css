@@ -10,7 +10,7 @@
 
 .overlay1 {
   border-image: fill 1
-    linear-gradient(hsla(180, 60%, 2%, 0.4), hsla(0, 53%, 34%, 0.4));
+    linear-gradient(hsla(180, 16%, 48%, 0.4), hsla(0, 83%, 27%, 0.4));
 }
 
 .firstSection {
@@ -52,9 +52,14 @@
   font-style: normal;
 }
 
+.typewriterHeading2 {
+  line-height: 1;
+  font-family: "Slabo 27px", serif;
+}
+
 .typewriter {
   /* border: 1px solid red; */
-  font-weight: bold;
+  font-weight: bolder;
   margin-bottom: 1.2rem;
   margin-top: 0;
   letter-spacing: 4px;

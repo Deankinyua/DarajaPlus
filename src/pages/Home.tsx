@@ -17,7 +17,7 @@ import "../styling/home.css";
 import "../styling/imageSlider.css";
 
 // ? Video import
-import harpicVideo from "../videos/World Toilet Day - Harpic Kenya.mp4";
+import harpicVideo from "../videos/HARPIC Door to Door.mp4";
 
 const Home = () => {
   useEffect(() => {
@@ -119,8 +119,10 @@ const Home = () => {
           <span className="companyName">Approach</span>
         </Heading>
         <p>
-          But what really sets us apart? Our commitment to brand campaigns with
-          a purpose. We’re here to make waves and make them count!
+          Our dedication to increasing numbers has been the primary reason why
+          we are trusted by the biggest brands. But what really sets us apart?
+          Our commitment to brand campaigns with a purpose. We’re here to make
+          waves and make them count!
         </p>
       </div>
 
@@ -128,7 +130,10 @@ const Home = () => {
         <VideoService videoName={harpicVideo} />
       </div>
       <div className="intro">
-        <h1> Award-Winning Marketing and Communication Agency</h1>
+        <Heading size={"2xl"} fontSize={"3.5rem"}>
+          Award-Winning
+          <span className="companyName">Marketing and Communication</span>Agency
+        </Heading>
       </div>
       <div className="home-imageSlider">
         <ImageSlider ImageUrls={IMAGES} />
