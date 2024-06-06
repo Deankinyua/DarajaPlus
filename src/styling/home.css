@@ -26,11 +26,11 @@
 }
 
 .writerContainer {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 60%;
   padding: 1rem 1rem 1rem 1rem;
-  position: relative;
-  bottom: 2rem;
+  position: absolute;
+  bottom: 1rem;
 }
 
 .typewriterHeading {
