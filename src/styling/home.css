@@ -25,6 +25,7 @@
 
 .typewriterHeading {
   color: white;
+  line-height: 2;
   font-size: clamp(2rem, 5vw, 5rem);
 }
 
