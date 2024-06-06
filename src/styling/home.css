@@ -23,8 +23,9 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   min-height: 90vh;
+  margin-top: 0;
 }
 
 .writerContainer {

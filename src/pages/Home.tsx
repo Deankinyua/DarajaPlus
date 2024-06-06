@@ -107,8 +107,6 @@ const Home = () => {
               We are not your typical marketing agency. At Daraja, we’re all
               about strategic thinking and creative execution. From digital to
               on-ground activations, we bring a unique touch to every project.
-              But what really sets us apart? Our commitment to brand campaigns
-              with a purpose. We’re here to make waves and make them count!
               <FaQuoteRight fill="white" />
             </p>
           </div>
