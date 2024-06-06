@@ -20,7 +20,7 @@
 
 .writerContainerMain {
   position: relative;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   /* padding-bottom: 2rem; */
   min-height: 90vh;
 }
