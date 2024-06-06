@@ -81,6 +81,7 @@ const Home = () => {
               {" "}
               <input type="checkbox" id="checkbox" />{" "}
             </label>
+
             <nav className="nav-bar">
               {/* <NavLink to={"/"} className={"links"}>
                 <Link to={"/"}>
@@ -97,21 +98,17 @@ const Home = () => {
                   </div>
                 </Link>
               </NavLink> */}
-              <NavLink to={"/"} className={"links"}>
-                Home
+              <NavLink to={"/"} className={"chatlink"}>
+                HOME
               </NavLink>
-              <NavLink to={"about"} className={"links"}>
-                About Us
+              <NavLink to={"about"} className={"chatlink"}>
+                ABOUT
               </NavLink>
-              <NavLink to={"culture"} className={"links"}>
-                Culture
+              <NavLink to={"culture"} className={"chatlink"}>
+                CULTURE
               </NavLink>
-              <NavLink to={"caseStudies"} className={"links"}>
-                Case Studies
-              </NavLink>
-
-              <NavLink to={"contacts"} className={"chatlink links"}>
-                Chat
+              <NavLink to={"caseStudies"} className={"chatlink"}>
+                CASE STUDIES
               </NavLink>
             </nav>
           </header>

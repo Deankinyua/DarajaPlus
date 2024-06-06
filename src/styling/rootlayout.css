@@ -40,5 +40,10 @@
 }
 
 .chatlink {
-  background: var(--primary);
+  color: rgb(243, 237, 237);
+  text-decoration: overline;
+}
+
+.chatlink:hover {
+  background: #b4b2b8;
 }

@@ -4,7 +4,12 @@
   /* background-color: blueviolet; */
   background: url(../../images/daraja010.jpeg) no-repeat center fixed;
   background-size: cover;
-  object-fit: contain;
+  /* object-fit: contain; */
+  /* display: flex; */
+  flex-direction: row;
+  /* justify-content: space-between; */
+  border: 3px solid yellow;
+  /* margin: 3rem; */
 }
 
 .overlay1 {
