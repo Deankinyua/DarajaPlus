@@ -4,6 +4,9 @@ import ImageSlider from "../Components/ImageSlider";
 import { IMAGES } from "../services/ImageService";
 import VideoService from "../services/VideoService";
 
+import { FaQuoteLeft } from "react-icons/fa";
+import { FaQuoteRight } from "react-icons/fa";
+
 // import { Link, NavLink, Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import myImage from "../assets/FotoJet (1).png";
@@ -22,7 +25,7 @@ const Home = () => {
   useEffect(() => {
     const el = document.querySelector(".typewriter")!;
 
-    const phrases = ["COMMUNICATES", "CHANGES", "COLLABORATES"];
+    const phrases = ["COMMUNICATES|", "CHANGES|", "COLLABORATES|"];
 
     let cursorPhraseIndex = 0;
 
@@ -122,9 +125,11 @@ const Home = () => {
               </div>
             </div>
             <br /> <span className="typewriter"></span>
-            <span className="cursor">|</span>
-            "We are not your typical marketing agency. At Daraja, we’re all
-            about strategic thinking and creative execution."
+            <span className="cursor"></span>
+            <FaQuoteLeft fill="white" />
+            We are not your typical marketing agency. At Daraja, we’re all about
+            strategic thinking and creative execution.
+            <FaQuoteRight fill="white" />
           </h2>{" "}
         </div>
       </div>
