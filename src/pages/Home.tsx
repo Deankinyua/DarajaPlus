@@ -116,15 +116,15 @@ const Home = () => {
 
         <div className="writerContainer">
           <h2 className="typewriterHeading">
-            "We are not your typical marketing agency. At Daraja, we’re all
-            about strategic thinking and creative execution.
             <div className="logoContainerRoot">
               <div className="imgContainer">
-                <img src={myImage} alt="Daraja Logo" height={300} width={300} />
+                <img src={myImage} alt="Daraja Logo" height={200} width={200} />
               </div>
             </div>
             <br /> <span className="typewriter"></span>
-            <span className="cursor">|"</span>
+            <span className="cursor">|</span>
+            "We are not your typical marketing agency. At Daraja, we’re all
+            about strategic thinking and creative execution."
           </h2>{" "}
         </div>
       </div>
