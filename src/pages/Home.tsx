@@ -105,11 +105,10 @@ const Home = () => {
               <br /> <span className="typewriter"></span>
               <span className="cursor"></span>
               <FaQuoteLeft fill="white" />
-              We are not your typical marketing agency. At Daraja, we’re all
-              about strategic thinking and creative execution.From digital to
-              on-ground activations, we bring a unique touch to every project.
-              But what really sets us apart? Our commitment to brand campaigns
-              with a purpose. We’re here to make waves and make them count!
+              From digital to on-ground activations, we bring a unique touch to
+              every project. But what really sets us apart? Our commitment to
+              brand campaigns with a purpose. We’re here to make waves and make
+              them count!
               <FaQuoteRight fill="white" />
             </h2>{" "}
           </div>
