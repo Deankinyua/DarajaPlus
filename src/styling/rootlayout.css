@@ -13,9 +13,11 @@
 
 .logoContainerRoot {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   max-width: 13rem;
   gap: 3px;
+  /* font-size: 14rem; */
+  border: 1px solid red;
 }
 
 .imgContainer {

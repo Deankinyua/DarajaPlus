@@ -6,7 +6,7 @@ import VideoService from "../services/VideoService";
 
 // import { Link, NavLink, Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-// import myImage from "../assets/PhotoShot_1710670139026.jpeg";
+import myImage from "../assets/darajalogo.png";
 // import { RiGroupFill } from "react-icons/ri";
 
 import { Heading } from "@chakra-ui/react";
@@ -22,7 +22,7 @@ const Home = () => {
   useEffect(() => {
     const el = document.querySelector(".typewriter")!;
 
-    const phrases = ["Communicating", "Changing", "Collaborating"];
+    const phrases = ["COMMUNICATES", "CHANGES", "COLLABORATES"];
 
     let cursorPhraseIndex = 0;
 
@@ -117,12 +117,16 @@ const Home = () => {
         <div className="writerContainer">
           <h2 className="typewriterHeading">
             "We are not your typical marketing agency. At Daraja, we’re all
-            about strategic thinking and creative execution. Dedicated to <br />{" "}
-            <span className="typewriter"></span>
+            about strategic thinking and creative execution.
+            <div className="logoContainerRoot">
+              <div className="imgContainer">
+                <img src={myImage} alt="Daraja Logo" height={800} width={400} />
+              </div>
+            </div>
+            <br /> <span className="typewriter"></span>
             <span className="cursor">|"</span>
           </h2>{" "}
         </div>
-        {/* <p>We are not your typical marketing agency.</p> */}
       </div>
       <div className="firstSection">
         <Heading size={"2xl"} fontSize={"3.5rem"}>
