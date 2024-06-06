@@ -20,12 +20,12 @@
 
 .writerContainerMain {
   position: relative;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   /* padding-bottom: 2rem; */
 }
 
 .writerContainer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 60%;
   padding: 1rem 1rem 1rem 1rem;
   position: relative;
