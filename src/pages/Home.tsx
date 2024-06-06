@@ -94,23 +94,23 @@ const Home = () => {
             <h2 className="typewriterHeading">
               <div className="logoContainerRoot">
                 <div className="imgContainer">
-                  <img
-                    src={myImage}
-                    alt="Daraja Logo"
-                    height={200}
-                    width={200}
-                  />
+                  <img src={myImage} alt="Daraja Logo" />
                 </div>
               </div>
               <br /> <span className="typewriter"></span>
               <span className="cursor"></span>
-              <FaQuoteLeft fill="white" />
-              From digital to on-ground activations, we bring a unique touch to
-              every project. But what really sets us apart? Our commitment to
-              brand campaigns with a purpose. We’re here to make waves and make
-              them count!
-              <FaQuoteRight fill="white" />
             </h2>{" "}
+          </div>
+          <div className="quote">
+            <p className="typewriterHeading">
+              <FaQuoteLeft fill="white" />
+              We are not your typical marketing agency. At Daraja, we’re all
+              about strategic thinking and creative execution. From digital to
+              on-ground activations, we bring a unique touch to every project.
+              But what really sets us apart? Our commitment to brand campaigns
+              with a purpose. We’re here to make waves and make them count!
+              <FaQuoteRight fill="white" />
+            </p>
           </div>
         </div>
       </div>
