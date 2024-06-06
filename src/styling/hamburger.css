@@ -60,6 +60,13 @@
   position: relative;
 }
 
+.hamburger-menu:has(input:checked) + .writerContainer {
+  /* translate: 0; */
+  translate: -150% 0;
+  /* display: flex; */
+  position: relative;
+}
+
 .hamburger-menu:has(input:checked) + .logoContainer {
   background-color: aquamarine;
 }

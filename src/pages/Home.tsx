@@ -142,12 +142,6 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="writerContainer">
-        <h2 className="typewriterHeading">
-          Dedicated to <br /> <span className="typewriter"></span>
-          <span className="cursor">|</span>
-        </h2>{" "}
-      </div>
       <div className="videoContainer">
         <VideoService videoName={harpicVideo} />
       </div>

@@ -44,7 +44,7 @@
 }
 
 .cursor {
-  color: var(--primary);
+  color: #ffff;
   animation: blink 1s linear infinite;
 }
 
