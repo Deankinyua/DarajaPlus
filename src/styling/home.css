@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
 .firstSection1 {
   height: 100vh;
   /* background-color: blueviolet; */
@@ -9,7 +9,7 @@
 
 .overlay1 {
   border-image: fill 1
-    linear-gradient(hsla(185, 91%, 13%, 0.4), hsla(0, 84%, 34%, 0.4));
+    linear-gradient(hsla(186, 95%, 8%, 0.4), hsla(0, 83%, 20%, 0.4));
 }
 
 .firstSection {
@@ -35,10 +35,9 @@
   /* color: var(--primary); */
   font-weight: bold;
   letter-spacing: 4px;
-  color: #ffff;
-
-  font-family: "Shadows Into Light", cursive;
-  font-weight: 700;
+  color: rgb(255, 252, 252);
+  font-family: "Slabo 27px", serif;
+  font-weight: 600;
   font-style: normal;
 }
 
