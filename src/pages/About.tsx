@@ -61,14 +61,16 @@ const About = () => {
 
       <div className="clientsList">
         <div>
-          <h1 className="clientNames">We Are Pleased to Have Worked With:</h1>
+          <Heading size={"1xl"} fontSize={"2.5rem"}>
+            We Are Pleased to Have Worked With:
+          </Heading>
         </div>
       </div>
 
-      <Marquee pauseOnHover={true} speed={15}>
+      <Marquee pauseOnClick={true} speed={15}>
         <div className="brandsContainer">
           {CLIENTS.map((client) => (
-            <div className="imgContainer clientContainer">
+            <div className="imgMarque clientContainer">
               <img src={client} alt="" />
             </div>
           ))}

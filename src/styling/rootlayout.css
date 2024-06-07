@@ -21,7 +21,10 @@
 }
 
 .logoContainer2 {
-  background: hsla(263, 52%, 33%, 0.5);
+  background: hsla(283, 3%, 41%, 0.5);
+  border-bottom: 1px solid white;
+  border-image: fill 1
+    linear-gradient(hsla(0, 0%, 100%, 0.308), hsla(263, 97%, 41%, 0.7));
 }
 
 @keyframes colorAnim {

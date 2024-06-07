@@ -51,11 +51,6 @@
   margin-bottom: 2rem;
 }
 
-.clientNames {
-  font-size: 2.8rem;
-  font-family: "Times New Roman", Times, serif;
-}
-
 .worked {
   font-weight: 600;
   font-size: 2rem;
@@ -70,4 +65,10 @@
 
 .clientContainer {
   animation: none;
+}
+
+.imgMarque {
+  width: 10rem;
+  padding: 0.6rem;
+  display: inline-block;
 }
