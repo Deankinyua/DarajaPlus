@@ -9,19 +9,19 @@ import {
   StatNumber,
   StatHelpText,
   StatArrow,
+  Link,
 } from "@chakra-ui/react";
+import { AiOutlineDoubleLeft } from "react-icons/ai";
 
 const CaseStudies = () => {
   return (
-    <div>
-      {/* <Link to={"/"}>
-        <div className="logoContainerRoot">
-          <RiGroupFill fill="var(--primary)" fontSize={"2rem"} />
-          <div className="imgContainer">
-            <img src={myImage} alt="Daraja Logo" height={200} width={200} />
-          </div>
+    <div className="casestudies">
+      <Link to={"/"}>
+        <div className="backbutton">
+          <AiOutlineDoubleLeft />
+          <AiOutlineDoubleLeft />
         </div>
-      </Link> */}
+      </Link>
       <div className="videoContainer">
         <VideoService videoName={harpicVideo2} />
       </div>

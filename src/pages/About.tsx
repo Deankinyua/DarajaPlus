@@ -1,20 +1,19 @@
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../services/ClientService";
 import { imageArray } from "../services/aboutImage";
-import myImage from "../assets/darajalogo.png";
 import "../styling/about.css";
 
 import { Card, Heading, Highlight } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { AiOutlineDoubleLeft } from "react-icons/ai";
 
 const About = () => {
   return (
     <div className="about-wrapper">
       <Link to={"/"}>
-        <div className="logoContainerRoot logoContainer2">
-          <div className="imgContainer imgContainer2">
-            <img src={myImage} alt="Daraja Logo" />
-          </div>
+        <div className="backbutton">
+          <AiOutlineDoubleLeft />
+          <AiOutlineDoubleLeft />
         </div>
       </Link>
       <div className="about-intro">

@@ -5,10 +5,20 @@ import culture3 from "../../culture/fun.jpg";
 import culture4 from "../../culture/nature.jpg";
 import culture5 from "../../culture/competition-768x1024.jpg";
 import culture6 from "../../culture/celebration.jpg";
+import { Link } from "react-router-dom";
+// import myImage from "../assets/darajalogo.png";
+
+import { AiOutlineDoubleLeft } from "react-icons/ai";
 
 const Culture = () => {
   return (
     <div className="culture">
+      <Link to={"/"}>
+        <div className="backbutton">
+          <AiOutlineDoubleLeft />
+          <AiOutlineDoubleLeft />
+        </div>
+      </Link>
       <div className="section">
         <div className="text-culture">
           <h1>
