@@ -23,7 +23,12 @@ const Home = () => {
   useEffect(() => {
     const el = document.querySelector(".typewriter")!;
 
-    const phrases = ["COMMUNICATES|", "CHANGES|", "COLLABORATES|"];
+    const phrases = [
+      "COMMUNICATION|",
+      "DEVELOPMENT|",
+      "COLLABORATION|",
+      "INVOLVEMENT",
+    ];
 
     let cursorPhraseIndex = 0;
 
