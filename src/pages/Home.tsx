@@ -90,7 +90,8 @@ const Home = () => {
         </div>
 
         <div className="writerContainerMain">
-          <div className="writerContainer">
+          <div>
+            {/* <div className="writerContainer"> */}
             <h2 className="typewriterHeading">
               <div className="logoContainerRoot">
                 <div className="imgContainer">
@@ -100,8 +101,8 @@ const Home = () => {
               <br /> <span className="typewriter"></span>
               <span className="cursor"></span>
             </h2>{" "}
-          </div>
-          <div className="quote">
+            {/* </div> */}
+            {/* <div className="quote"> */}
             <p className="typewriterHeading">
               <FaQuoteLeft fill="white" />
               We are not your typical marketing agency. At Daraja, we’re all
@@ -109,6 +110,7 @@ const Home = () => {
               on-ground activations, we bring a unique touch to every project.
               <FaQuoteRight fill="white" />
             </p>
+            {/* </div> */}
           </div>
         </div>
       </div>

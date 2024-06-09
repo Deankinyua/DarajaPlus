@@ -10,7 +10,7 @@
 
 .overlay1 {
   border-image: fill 1
-    linear-gradient(hsla(180, 16%, 48%, 0.4), hsla(0, 83%, 27%, 0.4));
+    linear-gradient(hsla(234, 98%, 48%, 0.4), hsla(0, 95%, 40%, 0.4));
 }
 
 .firstSection {
@@ -21,9 +21,11 @@
 
 .writerContainerMain {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
   min-height: 90vh;
+  align-items: center;
+  justify-content: center;
   width: 98%;
   margin: 0 auto;
 }
