@@ -38,7 +38,6 @@
 
 .chatlink {
   color: rgb(243, 237, 237);
-  text-decoration: overline;
 }
 
 .chatlink:hover {
