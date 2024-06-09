@@ -24,7 +24,7 @@
   /* flex-direction: column; */
   /* justify-content: space-between; */
   min-height: 90vh;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 98%;
   margin: 0 auto;
