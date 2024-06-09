@@ -12,7 +12,7 @@
   padding-bottom: 0;
   margin-bottom: 0;
   /* border: 1px solid red; */
-  animation: colorAnim 400ms infinite ease-in-out;
+  /* animation: colorAnim 400ms infinite ease-in-out; */
   display: inline-block;
 }
 
