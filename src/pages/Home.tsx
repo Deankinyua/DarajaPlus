@@ -102,15 +102,15 @@ const Home = () => {
               <span className="cursor"></span>
             </h2>{" "}
             {/* </div> */}
-            {/* <div className="quote"> */}
-            <p className="typewriterHeading">
-              <FaQuoteLeft fill="white" />
-              We are not your typical marketing agency. At Daraja, we’re all
-              about strategic thinking and creative execution. From digital to
-              on-ground activations, we bring a unique touch to every project.
-              <FaQuoteRight fill="white" />
-            </p>
-            {/* </div> */}
+            <div className="quote">
+              <p className="typewriterHeading">
+                <FaQuoteLeft fill="white" />
+                We are not your typical marketing agency. At Daraja, we’re all
+                about strategic thinking and creative execution. From digital to
+                on-ground activations, we bring a unique touch to every project.
+                <FaQuoteRight fill="white" />
+              </p>
+            </div>
           </div>
         </div>
       </div>
