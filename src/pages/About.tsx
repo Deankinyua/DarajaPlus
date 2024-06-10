@@ -42,6 +42,17 @@ const About = () => {
           playbook, proudly steering brands toward success.
         </Highlight>
       </div>
+
+      <section className="background_section">
+        <div className="background_text">
+          <div className="text_container_bottom">
+            <Heading color={"#ffff"} fontSize={"3.5rem"}>
+              Get to Know Us and What Inspires Us
+            </Heading>
+          </div>
+        </div>
+      </section>
+
       <div className="projectsContainer">
         {imageArray.map((element) => (
           <div className="img-experience-container">
@@ -75,16 +86,6 @@ const About = () => {
           ))}
         </div>
       </Marquee>
-
-      <section className="background_section">
-        <div className="background_text">
-          <div className="text_container_bottom">
-            <Heading color={"#ffff"} fontSize={"3.5rem"}>
-              Get to Know Us and What Inspires Us
-            </Heading>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

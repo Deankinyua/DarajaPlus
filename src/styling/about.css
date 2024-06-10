@@ -75,7 +75,7 @@
 
 .background_section {
   background: black;
-  min-height: 95vh;
+  min-height: 100vh;
   background: url(../../images/teamdiscuss/team_discuss.jpg) no-repeat center
     fixed;
   background-size: cover;
