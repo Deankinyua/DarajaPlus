@@ -60,8 +60,8 @@ const About = () => {
 
       <div className="clientsList">
         <div>
-          <Heading size={"1xl"} fontSize={"2.5rem"}>
-            We Are Pleased to Have Worked With:
+          <Heading size={"1xl"} color={"#794ff1"} fontSize={"2.5rem"}>
+            Our Clients:
           </Heading>
         </div>
       </div>
@@ -75,6 +75,16 @@ const About = () => {
           ))}
         </div>
       </Marquee>
+
+      <section className="background_section">
+        <div className="background_text">
+          <div className="text_container_bottom">
+            <Heading color={"#ffff"} fontSize={"3.5rem"}>
+              Get to Know Us and What Inspires Us
+            </Heading>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

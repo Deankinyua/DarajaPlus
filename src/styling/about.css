@@ -72,3 +72,22 @@
   padding: 0.6rem;
   display: inline-block;
 }
+
+.background_section {
+  background: black;
+  min-height: 95vh;
+  background: url(../../images/teamdiscuss/team_discuss.jpg) no-repeat center
+    fixed;
+  background-size: cover;
+  border-image: fill 1
+    linear-gradient(hsla(236, 92%, 48%, 0.4), hsla(29, 97%, 49%, 0.4));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_container_bottom {
+  width: 75%;
+  margin: 0 auto;
+}
