@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 .firstSection1 {
   min-height: 100vh;
   background: url(../../images/nicah.jpeg) no-repeat center fixed;
@@ -10,7 +9,7 @@
 
 .overlay1 {
   border-image: fill 1
-    linear-gradient(hsla(234, 98%, 48%, 0.4), hsla(0, 95%, 40%, 0.4));
+    linear-gradient(hsla(246, 93%, 17%, 0.4), hsla(0, 52%, 39%, 0.35));
 }
 
 .firstSection {
@@ -24,7 +23,7 @@
   /* flex-direction: column; */
   /* justify-content: space-between; */
   min-height: 90vh;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   width: 78%;
   margin: 0 auto;
@@ -45,17 +44,16 @@
 
 .typewriterHeading {
   color: white;
-  line-height: 2.3;
-  font-size: clamp(0.7rem, 5vw, 4rem);
-  font-family: "Acme", sans-serif;
+  line-height: 2;
+  font-size: clamp(1.7rem, 5.4vw, 4rem);
   font-weight: 800;
   font-style: normal;
-  font-size: 1.7rem;
+  font-family: "Slabo 27px", serif;
+  /* font-size: 2rem; */
 }
 
 .typewriterHeading2 {
   line-height: 1;
-  font-family: "Slabo 27px", serif;
 }
 
 .typewriter {

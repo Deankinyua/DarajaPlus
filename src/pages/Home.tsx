@@ -105,18 +105,6 @@ const Home = () => {
                 <FaQuoteRight fill="white" />
               </p>
             </div>
-
-            <div className="writerContainer">
-              <h2 className="typewriterHeading">
-                {/* <div className="logoContainerRoot">
-                <div className="imgContainer">
-                  <img src={myImage} alt="Daraja Logo" />
-                </div>
-              </div> */}
-                <br /> <span className="typewriter"></span>
-                <span className="cursor"></span>
-              </h2>{" "}
-            </div>
           </div>
         </div>
       </div>
@@ -157,3 +145,18 @@ const Home = () => {
 };
 
 export default Home;
+
+{
+  /* 
+            <div className="writerContainer">
+              <h2 className="typewriterHeading">
+                <div className="logoContainerRoot">
+                  <div className="imgContainer">
+                    <img src={myImage} alt="Daraja Logo" />
+                  </div>
+                </div>
+                <br /> <span className="typewriter"></span>
+                <span className="cursor"></span>
+              </h2>{" "}
+            </div> */
+}
