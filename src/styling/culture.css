@@ -30,5 +30,12 @@
 
 .backbutton {
   display: flex;
-  padding-left: 1.3rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0.1rem;
+}
+
+.home_culture {
+  padding-left: 0.3rem;
+  font-weight: 700;
 }

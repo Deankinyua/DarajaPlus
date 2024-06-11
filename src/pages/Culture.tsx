@@ -17,6 +17,7 @@ const Culture = () => {
         <div className="backbutton">
           <AiOutlineDoubleLeft />
           <AiOutlineDoubleLeft />
+          <p className="home_culture">HOME</p>
         </div>
       </Link>
       <div className="section">

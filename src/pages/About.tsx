@@ -14,6 +14,7 @@ const About = () => {
         <div className="backbutton">
           <AiOutlineDoubleLeft />
           <AiOutlineDoubleLeft />
+          <Heading>HOME</Heading>
         </div>
       </Link>
       <div className="about-intro">

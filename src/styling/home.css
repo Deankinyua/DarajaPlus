@@ -21,18 +21,14 @@
 
 .writerContainerMain {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
   min-height: 90vh;
   align-items: center;
   justify-content: center;
   width: 78%;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
 .writerContainer {
-  /* border: 1px solid red; */
   padding: 1rem 1rem 1rem 1rem;
   flex-basis: content;
   flex-shrink: 2;

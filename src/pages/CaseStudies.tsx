@@ -9,6 +9,7 @@ import {
   StatNumber,
   StatHelpText,
   StatArrow,
+  Heading,
 } from "@chakra-ui/react";
 import { AiOutlineDoubleLeft } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
@@ -21,6 +22,7 @@ const CaseStudies = () => {
         <div className="backbutton">
           <AiOutlineDoubleLeft />
           <AiOutlineDoubleLeft />
+          <Heading>HOME</Heading>
         </div>
       </NavLink>
 
