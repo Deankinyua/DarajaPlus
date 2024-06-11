@@ -4,11 +4,11 @@ import ImageSlider from "../Components/ImageSlider";
 import { IMAGES } from "../services/ImageService";
 import VideoService from "../services/VideoService";
 
-import { FaQuoteLeft } from "react-icons/fa";
-import { FaQuoteRight } from "react-icons/fa";
+// import { FaQuoteLeft } from "react-icons/fa";
+// import { FaQuoteRight } from "react-icons/fa";
 
 import { NavLink } from "react-router-dom";
-import myImage from "../assets/FotoJet (1).png";
+// import myImage from "../assets/FotoJet (1).png";
 
 import { Heading } from "@chakra-ui/react";
 
@@ -98,16 +98,16 @@ const Home = () => {
           <div>
             {/* <div className="writerContainer"> */}
             <h2 className="typewriterHeading">
-              <div className="logoContainerRoot">
+              {/* <div className="logoContainerRoot">
                 <div className="imgContainer">
                   <img src={myImage} alt="Daraja Logo" />
                 </div>
-              </div>
+              </div> */}
               <br /> <span className="typewriter"></span>
               <span className="cursor"></span>
             </h2>{" "}
             {/* </div> */}
-            <div className="quote">
+            {/* <div className="quote">
               <p className="typewriterHeading">
                 <FaQuoteLeft fill="white" />
                 We are not your typical marketing agency. At Daraja, we’re all
@@ -115,7 +115,7 @@ const Home = () => {
                 on-ground activations, we bring a unique touch to every project.
                 <FaQuoteRight fill="white" />
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
