@@ -26,19 +26,19 @@
   min-height: 90vh;
   align-items: flex-start;
   justify-content: center;
-  width: 98%;
+  width: 78%;
   margin: 0 auto;
+  /* border: 1px solid red; */
 }
 
 .writerContainer {
-  width: 78%;
+  /* border: 1px solid red; */
   padding: 1rem 1rem 1rem 1rem;
   flex-basis: content;
   flex-shrink: 2;
 }
 
 .quote {
-  width: 60%;
   flex-grow: 3;
   padding-bottom: 0;
 }
@@ -50,6 +50,7 @@
   font-family: "Acme", sans-serif;
   font-weight: 800;
   font-style: normal;
+  font-size: 1.7rem;
 }
 
 .typewriterHeading2 {
