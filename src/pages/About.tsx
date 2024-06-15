@@ -3,12 +3,20 @@ import { CLIENTS } from "../services/ClientService";
 import { imageArray } from "../services/aboutImage";
 import "../styling/about.css";
 
-import { Card, Heading, Highlight } from "@chakra-ui/react";
+import { Alert, AlertIcon, Card, Heading, Highlight } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { AiOutlineDoubleLeft } from "react-icons/ai";
 import FormModal from "../services/FormModal";
 
 const About = () => {
+  const submitter = () => {
+    return (
+      <Alert status="success">
+        <AlertIcon />
+        We've Received your Message and we will respond soon
+      </Alert>
+    );
+  };
   return (
     <div className="about-wrapper">
       <Link to={"/"}>
@@ -79,7 +87,7 @@ const About = () => {
         </div>
       </div>
 
-      <FormModal></FormModal>
+      <FormModal submitter={submitter}></FormModal>
 
       <Marquee pauseOnClick={true} speed={15}>
         <div className="brandsContainer">

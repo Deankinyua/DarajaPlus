@@ -12,7 +12,13 @@ import {
 
 import EmailService from "./EmailService";
 
-const FormModal = () => {
+type Props = {
+  submitter: () => void;
+};
+
+
+
+const FormModal = ({ submitter }: Props) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
@@ -33,7 +39,9 @@ const FormModal = () => {
               <Button colorScheme="blue" mr={3} onClick={onClose}>
                 Close
               </Button>
-              <Button variant="ghost">Secondary Action</Button>
+              <Button variant="ghost" onClick={submitter}>
+                Send
+              </Button>
             </ModalFooter>
           </ModalContent>
         </Modal>
