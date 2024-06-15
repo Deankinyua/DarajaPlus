@@ -11,7 +11,7 @@ import { useState } from "react";
 const EmailService = () => {
   const [input, setInput] = useState("");
 
-  const handleInputChange = (e) => setInput(e.target.value);
+  const handleInputChange = (e: MouseEvent) => setInput(e.target.value);
 
   const isError = input === "";
   return (
