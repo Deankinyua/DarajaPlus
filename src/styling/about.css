@@ -61,6 +61,7 @@
   grid-template-columns: repeat(9, 1fr);
   gap: 5rem;
   grid-template-rows: repeat(3, 5rem);
+  min-height: 40vh;
 }
 
 .clientContainer {

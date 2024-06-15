@@ -13,7 +13,7 @@ const ToastExample = ({ onClose }: Props) => {
           title: "Message Submitted.",
           description: "We'll reach out soon.",
           status: "success",
-          duration: 3000,
+          duration: 5000,
           isClosable: true,
         });
 
