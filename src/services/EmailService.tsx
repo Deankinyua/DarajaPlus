@@ -9,19 +9,21 @@ import {
 const EmailService = () => {
   return (
     <FormControl size={"xl"}>
-      <FormLabel size={"xl"}>Email Address</FormLabel>
+      <FormLabel size={"xl"} fontSize={"1.5rem"}>
+        Email Address
+      </FormLabel>
       <Input type="email" size={"25"} />
 
       <FormErrorMessage>Email is required.</FormErrorMessage>
 
-      <FormLabel>Name</FormLabel>
+      <FormLabel fontSize={"1.5rem"}>Name</FormLabel>
       <Input type="text" size={"20"} />
       <FormErrorMessage>Name is required.</FormErrorMessage>
 
-      <FormLabel>Subject</FormLabel>
+      <FormLabel fontSize={"1.5rem"}>Subject</FormLabel>
       <Input type="text" height={"30"} />
 
-      <FormLabel>Country</FormLabel>
+      <FormLabel fontSize={"1.5rem"}>Country</FormLabel>
       <Select placeholder="Select country">
         <option>Kenya</option>
         <option>Rwanda</option>
