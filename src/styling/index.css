@@ -61,9 +61,3 @@ img {
   border: 2px black solid;
   margin-bottom: 1rem;
 }
-
-.modal_component {
-  border: 1px solid red;
-  display: flex;
-  align-items: center;
-}
