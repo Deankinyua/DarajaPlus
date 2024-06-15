@@ -12,19 +12,24 @@ const EmailService = () => {
       <FormLabel size={"xl"} fontSize={"1.3rem"}>
         Email Address
       </FormLabel>
-      <Input type="email" size={"30"} />
+      <Input type="email" size={"30"} padding={".5rem 0"} />
 
       <FormErrorMessage>Email is required.</FormErrorMessage>
 
       <FormLabel fontSize={"1.3rem"}>Name</FormLabel>
-      <Input type="text" size={"20"} />
+      <Input type="text" size={"20"} padding={".5rem 0"} />
       <FormErrorMessage>Name is required.</FormErrorMessage>
 
       <FormLabel fontSize={"1.3rem"}>Subject</FormLabel>
-      <Input type="text" height={"30"} size={"20"} />
+      <Input type="text" height={"30"} size={"20"} padding={".5rem 0"} />
 
       <FormLabel fontSize={"1.3rem"}>Country</FormLabel>
-      <Select placeholder="Select country" height={"30"}>
+      <Select
+        placeholder="Select country"
+        height={"30"}
+        padding={".5rem 0"}
+        fontSize={"1.3rem"}
+      >
         <option>Kenya</option>
         <option>Rwanda</option>
         <option>Zambia</option>
@@ -33,7 +38,7 @@ const EmailService = () => {
       <FormLabel size={"xl"} fontSize={"1.3rem"}>
         How can we help you? Feel free to get in touch
       </FormLabel>
-      <Input type="text" size={"2xl"} height={"100"} />
+      <Input type="text" size={"2xl"} height={"100"} padding={".5rem 0"} />
     </FormControl>
   );
 };
