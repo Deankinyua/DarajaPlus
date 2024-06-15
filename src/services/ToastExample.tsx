@@ -1,4 +1,4 @@
-import { Box, Button, useToast } from "@chakra-ui/react";
+import { Button, useToast } from "@chakra-ui/react";
 
 type Props = {
   onClose: () => void;
@@ -10,12 +10,6 @@ const ToastExample = ({ onClose }: Props) => {
     <Button
       onClick={() => {
         toast({
-          position: "bottom-left",
-          render: () => (
-            <Box color="white" p={3} bg="blue.500">
-              Message Received
-            </Box>
-          ),
           title: "Message Submitted.",
           description: "We'll reach out soon.",
           status: "success",
