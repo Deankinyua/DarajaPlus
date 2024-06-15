@@ -26,7 +26,7 @@ const ToastExample = ({ onClose }: Props) => {
         onClose();
       }}
     >
-      Show Toast
+      Send Message
     </Button>
   );
 };

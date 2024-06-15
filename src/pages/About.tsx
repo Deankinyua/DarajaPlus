@@ -51,6 +51,7 @@ const About = () => {
             <Heading color={"#ffff"} fontSize={"3.5rem"}>
               Get to Know Us and What Inspires Us
             </Heading>
+            <FormModal></FormModal>
           </div>
         </div>
       </section>
@@ -78,8 +79,6 @@ const About = () => {
           </Heading>
         </div>
       </div>
-
-      <FormModal></FormModal>
 
       <Marquee pauseOnClick={true} speed={15}>
         <div className="brandsContainer">

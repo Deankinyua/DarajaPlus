@@ -17,14 +17,14 @@ const FormModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Button onClick={onOpen}>Open Modal</Button>
+      <Button onClick={onOpen}>Send Us A Message</Button>
 
       <div className="modal_component">
-        <Modal isOpen={isOpen} onClose={onClose} size={"xl"}>
+        <Modal isOpen={isOpen} onClose={onClose} size={"2xl"}>
           <ModalOverlay />
           <ModalContent>
             <div className="wrapper_header">
-              <ModalHeader>Talk to Us </ModalHeader>
+              <ModalHeader fontSize={"1.5rem"}>Talk to Us </ModalHeader>
             </div>
             <ModalCloseButton />
             <ModalBody>
