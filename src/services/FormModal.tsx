@@ -11,14 +11,9 @@ import {
 } from "@chakra-ui/react";
 
 import EmailService from "./EmailService";
+import ToastExample from "./ToastExample";
 
-type Props = {
-  submitter: () => void;
-};
-
-
-
-const FormModal = ({ submitter }: Props) => {
+const FormModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
@@ -39,9 +34,7 @@ const FormModal = ({ submitter }: Props) => {
               <Button colorScheme="blue" mr={3} onClick={onClose}>
                 Close
               </Button>
-              <Button variant="ghost" onClick={submitter}>
-                Send
-              </Button>
+              <ToastExample onClose={onClose}></ToastExample>
             </ModalFooter>
           </ModalContent>
         </Modal>
