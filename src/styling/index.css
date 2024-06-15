@@ -53,3 +53,11 @@ button {
 img {
   max-width: 100%;
 }
+
+.label {
+  padding: 0.7rem;
+}
+.input {
+  border: 2px black solid;
+  margin-bottom: 1rem;
+}

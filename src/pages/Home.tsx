@@ -128,7 +128,10 @@ const Home = () => {
       <div className="intro">
         <Heading size={"2xl"} fontSize={"3.5rem"}>
           Award-Winning
-          <span className="companyName">Marketing and Communication</span>Agency
+          <span> </span> <span> </span>
+          <span className="companyName"> Marketing and Communication </span>
+          <span> </span>
+          Agency
         </Heading>
       </div>
       <div className="home-imageSlider">
