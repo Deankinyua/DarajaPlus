@@ -17,7 +17,15 @@ const FormModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Button onClick={onOpen}>Send Us A Message</Button>
+      <Button
+        onClick={onOpen}
+        color={"white"}
+        fontWeight={"900"}
+        background={"black"}
+        className="button_modal"
+      >
+        Send Us A Message
+      </Button>
 
       <div className="modal_component">
         <Modal isOpen={isOpen} onClose={onClose} size={"2xl"}>

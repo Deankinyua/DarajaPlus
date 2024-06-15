@@ -61,3 +61,7 @@ img {
   border: 2px black solid;
   margin-bottom: 1rem;
 }
+
+.button_modal:hover {
+  color: black;
+}
