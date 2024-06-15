@@ -19,10 +19,12 @@ const FormModal = () => {
       <Button onClick={onOpen}>Open Modal</Button>
 
       <div className="modal_component">
-        <Modal isOpen={isOpen} onClose={onClose}>
+        <Modal isOpen={isOpen} onClose={onClose} size={"xl"}>
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Modal Title</ModalHeader>
+            <div className="wrapper_header">
+              <ModalHeader>Talk to Us </ModalHeader>
+            </div>
             <ModalCloseButton />
             <ModalBody>
               <EmailService></EmailService>
