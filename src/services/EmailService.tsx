@@ -4,6 +4,7 @@ import {
   Input,
   FormErrorMessage,
   Select,
+  Textarea,
 } from "@chakra-ui/react";
 
 const EmailService = () => {
@@ -44,7 +45,7 @@ const EmailService = () => {
       <FormLabel size={"xl"} fontSize={"1.3rem"} fontWeight={"550"}>
         How can we help you? Feel free to get in touch
       </FormLabel>
-      <Input type="text" size={"2xl"} height={"100"} padding={".5rem 0"} />
+      <Textarea></Textarea>
     </FormControl>
   );
 };
