@@ -20,6 +20,7 @@ const Culture = () => {
           <p className="home_culture">HOME</p>
         </div>
       </Link>
+
       <div className="section">
         <div className="text-culture">
           <h1>
